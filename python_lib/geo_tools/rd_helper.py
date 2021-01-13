@@ -107,4 +107,5 @@ def create_edges( p0_pts,  p1_pts, p0_color=np.array([1.0,0.0,0.0]), p1_color=np
 		             mode=pyrender.constants.GLTF.POINTS )  )
     
     vecs_mesh = pyrender.Mesh(primitives=plist, is_visible=True) 
+    
     return vecs_mesh 
