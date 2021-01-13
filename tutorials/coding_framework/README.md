@@ -15,21 +15,23 @@ C++ framework is provided as the 2nd option.
 
 ---
 ### Open3D+Trimesh
-#### [Visualize points, edges, and meshes ???]()  
+#### [Visualize points, edges, and meshes](python/4_open3d/show_mesh_pcd_edges.ipynb)  
 
 ---
 ### PyRender+Trimesh 
-#### [Visualize points, edges, and meshes](python/2_visualize/2_visualization.ipynb)
-#### [Neighboring travel examples](python/4_travel/4_travel.ipynb)  
-#### [Keyboard events](python/5_keyboard/5_keyboard.ipynb)    
+
+#### [Visualize meshes](python/3_pyrender/show_mesh.ipynb)
+#### [Visualize points and edges](python/3_pyrender/show_edges_and_points.ipynb)
+#### [Neighboring travel examples](python/3_pyrender/travel_pyrender.ipynb)  
+#### [Keyboard events](python/3_pyrender/keyboard.ipynb)    
     
 ---
 ### MeshLab 
-#### [Work with MeshLab](python/3_meshlab/3_meshlab.ipynb)  
+#### [Work with MeshLab](python/5_meshlab/meshlab.ipynb)  
 ---
 ### Practices
-#### [Calculate Euler number](python/6_practices/euler_number.ipynb)
-#### [Display vertices normals and change colors](python/6_practices/vis_nv.ipynb)  
+#### [Calculate Euler number](python/practice/euler_number.ipynb)
+#### [Visualize Distance](python/practice/visualize_distance.ipynb)  
 <img src="python/imgs/pdist1.JPG" width="50%" align="left" />
 </br></br></br></br></br></br></br></br></br></br></br>
 
