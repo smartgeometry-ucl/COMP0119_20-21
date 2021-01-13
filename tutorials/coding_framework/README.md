@@ -30,9 +30,7 @@ C++ framework is provided as the 2nd option.
 ### Practices
 #### [Calculate Euler number](python/6_practices/euler_number.ipynb)
 #### [Display vertices normals and change colors](python/6_practices/vis_nv.ipynb)  
-<img src="python/imgs/nvgui_nonv.jpg" width="30%" align="left" />
-<img src="python/imgs/nvgui_display.gif" width="30%" align="left" />
-<img src="python/imgs/nvgui_colors.gif" width="30%" align="left" />
+<img src="python/imgs/pdist1.JPG" width="50%" align="left" />
 </br></br></br></br></br></br></br></br></br></br></br>
 
 
