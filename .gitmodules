@@ -1,0 +1,3 @@
+[submodule "cpp_lib/libigl_c645aac0"]
+	path = cpp_lib/libigl_c645aac0
+	url = git@github.com:smartgeometry-ucl/libigl.git
