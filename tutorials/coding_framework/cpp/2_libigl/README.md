@@ -11,7 +11,7 @@ Resources:
 * [C++ template introduction](http://www.cplusplus.com/doc/oldtutorial/templates/)
 
 If you are new to Eigen3, our introduction slides may help you to get started.  
-C++ and Eigen3 Introduction: [ URL_HERE ]()  
+C++ and Eigen3 Introduction: [pdf](https://drive.google.com/file/d/1rgn2gzIahWRIR2gC_DhSHR5NpMY35Eif/view?usp=sharing)  
 
 
 ## Install LibIGL
