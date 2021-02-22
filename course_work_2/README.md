@@ -5,8 +5,7 @@
 
 2. curvature visualization: a basic version is to show the difference between flat area and complex area. 
 https://stackoverflow.com/questions/15140072/how-to-map-number-to-color-using-matplotlibs-colormap 
-
-![](https://libigl.github.io/images/bumpy-gaussian-curvature.jpg)
+   <img src="https://libigl.github.io/images/bumpy-gaussian-curvature.jpg" height="250">
 
 3. question 4, eigenvectors of the Laplace-Beltrami : please use cotangent version
 
