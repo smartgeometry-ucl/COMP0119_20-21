@@ -15,11 +15,13 @@ reference handout:
 https://moodle.ucl.ac.uk/pluginfile.php/1425455/mod_resource/content/1/laplace_beltrami_and_eigenanalysis.pdf  
 
 reference paper: [Spectral Geometry Processing with Manifold Harmonics](http://www.cs.jhu.edu/~misha/ReadingSeminar/Papers/Vallet08.pdf).  
-Section 2.3 and 3.1 provide the details related to question3.  
+    
+```Section 2.3 and 3.1 provide the details related to question3.  
 Equation (7) shows how to transform between canonical and MHB space (eigen space)  
 `star_0` => our `M`  
 `x` => canonical coordinates  
 `\tilde{x}` => the coordinates in eigen space  
+````
 
 5. Sparse solver in python:
  https://docs.scipy.org/doc/scipy/reference/generated/scipy.sparse.linalg.eigs.html 
