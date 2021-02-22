@@ -8,12 +8,9 @@ https://stackoverflow.com/questions/15140072/how-to-map-number-to-color-using-ma
 
 ![](https://libigl.github.io/images/bumpy-gaussian-curvature.jpg)
 
-3. question 3, eigenvectors of the Laplace-Beltrami : please use cotangent version
+3. question 4, eigenvectors of the Laplace-Beltrami : please use cotangent version
 
-4. Spectra and Eigen3 in cpp : Spectra requires Eigen 3.3.7. check your eigen's major version before use it:  
-`	std::cout<<"eigen version.:"<<EIGEN_WORLD_VERSION<<","<<EIGEN_MAJOR_VERSION  << EIGEN_MINOR_VERSION<<"\n";`
-
-5. question 3, 
+4. question 4, 
 reference handout: 
 https://moodle.ucl.ac.uk/pluginfile.php/1425455/mod_resource/content/1/laplace_beltrami_and_eigenanalysis.pdf  
 
@@ -24,10 +21,10 @@ Equation (7) shows how to transform between canonical and MHB space (eigen space
 `x` => canonical coordinates  
 `\tilde{x}` => the coordinates in eigen space  
 
-6. Sparse solver in python:
+5. Sparse solver in python:
  https://docs.scipy.org/doc/scipy/reference/generated/scipy.sparse.linalg.eigs.html 
 
-7. Sparse solver opotions in cpp - use **igl::eigs**  
+6. Sparse solver opotions in cpp - use **igl::eigs**  
 [igl::eigs(A,B,EIGS_TYPE_SM ,x,s)](https://github.com/libigl/libigl/blob/508cb9940f4d1e8e54137d5afe2fd2eb9c4dc672/include/igl/eigs.h).  
 It solves the generalized eigenvalue problem `A x = s B x`.  
 STEPS:  
@@ -35,6 +32,9 @@ i. apply a hotfix at here [url](https://gist.github.com/yushiangw/c4579efca5a7ee
 ii. solve : `(-1*C) x = s M x`. `(-1*C)` is a trick to make this matrix become P.S.D.  
 iii. `(-1*C) x = s M x` is equal to `M^(-1)(-1*C) x = s x` so now `x` is the eigenvectors of `M^(-1)*(-1*C)`. 
 
-8. Sparse solver opotions in cpp - use **Spectra**  
-url: [https://spectralib.org/]
+7. Sparse solver opotions in cpp - use **Spectra**  
+url: [https://spectralib.org/]  
+  
+ Spectra and Eigen3 in cpp : Spectra requires Eigen 3.3.7. check your eigen's major version before use it:  
+`	std::cout<<"eigen version.:"<<EIGEN_WORLD_VERSION<<","<<EIGEN_MAJOR_VERSION  << EIGEN_MINOR_VERSION<<"\n";`
 
