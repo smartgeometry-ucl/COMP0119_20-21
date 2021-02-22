@@ -14,7 +14,7 @@ https://stackoverflow.com/questions/15140072/how-to-map-number-to-color-using-ma
 reference handout: 
 https://moodle.ucl.ac.uk/pluginfile.php/1425455/mod_resource/content/1/laplace_beltrami_and_eigenanalysis.pdf  
 
-reference paper: [Spectral Geometry Processing with Manifold Harmonics](http://www.cs.jhu.edu/~misha/ReadingSeminar/Papers/Vallet08.pdf).  
+   reference paper: [Spectral Geometry Processing with Manifold Harmonics](http://www.cs.jhu.edu/~misha/ReadingSeminar/Papers/Vallet08.pdf).  
     
 ```Section 2.3 and 3.1 provide the details related to question3.  
 Equation (7) shows how to transform between canonical and MHB space (eigen space)  
@@ -37,6 +37,6 @@ iii. `(-1*C) x = s M x` is equal to `M^(-1)(-1*C) x = s x` so now `x` is the eig
 7. Sparse solver opotions in cpp - use **Spectra**  
 url: [https://spectralib.org/]  
   
- Spectra and Eigen3 in cpp : Spectra requires Eigen 3.3.7. check your eigen's major version before use it:  
+   Spectra and Eigen3 in cpp : Spectra requires Eigen 3.3.7. check your eigen's major version before use it:  
 `	std::cout<<"eigen version.:"<<EIGEN_WORLD_VERSION<<","<<EIGEN_MAJOR_VERSION  << EIGEN_MINOR_VERSION<<"\n";`
 
