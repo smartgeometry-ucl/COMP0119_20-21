@@ -8,6 +8,19 @@ Functions:
 + [trimesh.load(...)](https://trimsh.org/trimesh.html?highlight=load#trimesh.load)
 + [trimesh.load_mesh(...)](https://trimsh.org/trimesh.html?highlight=load#trimesh.load_mesh)
 
+Remember to set the argument <span style="color:red">process=False</span> or trimesh might change the mesh.
+
+## Create a mesh
+
+You can create a mesh object from a list of *vertices* and *faces*.
+
++ [trimesh.Trimesh(....)](https://trimsh.org/trimesh.html#trimesh.Trimesh)
+
+It is also possible to create a point cloud object from a list of *points*.
+
++ [trimesh.PointCloud(....)](https://trimsh.org/trimesh.html#trimesh.PointCloud)
+
+Remember to set the argument <span style="color:red">process=False</span> or trimesh might change the mesh.
 
 ## Trimesh Object
 After you loaded a mesh, you will get a [Trimesh]( https://trimsh.org/trimesh.html#trimesh.Trimesh ) object.  
@@ -54,17 +67,5 @@ Some useful attributes are listed below:
 Trimesh.[apply_transform(matrix)](  https://trimsh.org/trimesh.html#trimesh.Trimesh.apply_transform  )  
 Trimesh.[copy()](  https://trimsh.org/trimesh.html#trimesh.Trimesh.copy  )  
 Trimesh.[show()](  https://trimsh.org/trimesh.html#trimesh.Trimesh.show  )  
-
-
-
-
-
-
-
-
-
-
-
-
 
 
