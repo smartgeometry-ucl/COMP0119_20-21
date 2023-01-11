@@ -41,7 +41,7 @@ In this tutorial, we use CMake as a build tool. CMake is a universal cross-platf
 If you are unfamiliar with CMake, please read the section 1.1.1 in this page [what CMake can do](https://cgold.readthedocs.io/en/latest/overview/cmake-can.html  ).    
 
 ### LINUX/OSX 
-1. cd to `COMPM080-Tutorials-2020\tutorials\1_coding_framework\cpp\1_install`
+1. cd to `tutorials/coding_framework/cpp/1_install`
 2. `mkdir build_debug`
 3. `mkdir build_release`
 4. create debug Makefile `cd build_debug; cmake .. -DCMAKE_BUILD_TYPE=Debug`  
@@ -54,7 +54,7 @@ If you are unfamiliar with CMake, please read the section 1.1.1 in this page [wh
 ### Windows
 
 1. open CMake 
-2. select src directory `COMPM080-Tutorials-2020\tutorials\1_coding_framework\cpp\1_install`
+2. select src directory `tutorials/coding_framework/cpp/1_install`
 3. create and select a build directory 
 4. press  
     a. Configure -> select Visual Studio 20XX **Win64** 
@@ -72,7 +72,7 @@ If you are unfamiliar with CMake, please read the section 1.1.1 in this page [wh
 ## How does CMake works?
 ### each CMake project directory must contain a CMakeLists.txt
 
-\tutorials\1_coding_framework\cpp\1_install\CMakeLists.txt :
+tutorials/coding_framework/cpp/1_install/CMakeLists.txt :
 ```
 cmake_minimum_required(VERSION 3.1)
 project(hello_world)

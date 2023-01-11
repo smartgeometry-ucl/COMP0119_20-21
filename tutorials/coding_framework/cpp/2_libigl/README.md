@@ -15,7 +15,7 @@ C++ and Eigen3 Introduction: [pdf](https://drive.google.com/file/d/1rgn2gzIahWRI
 
 
 ## Install LibIGL
-LibIGL is a submodule of this reposity and can be found at `\cpp_lib\libigl_c645aac0`  
+LibIGL is a submodule of this reposity and can be found at `cpp_lib/libigl_c645aac0`  
 [/.gitmodules](/.gitmodules)
   
 Initial submodule  
@@ -34,7 +34,7 @@ To use a new library in your c++ project, it invokes the following steps:
 While configure these setting is tedious, many libraries ship their own 'FIND_XXX.cmake' file to simplify the building task. This magic macro file contains customized settings and option to allow various customization.
 
 Lets configure libIGL through CMake. Our new CMakefile now look like:
-[/tutorials/1_coding_framework/cpp/2_libigl/CMakeLists.txt](/tutorials/coding_framework/cpp/2_libigl/CMakeLists.txt)  
+[tutorials/coding_framework/cpp/2_libigl/CMakeLists.txt](/tutorials/coding_framework/cpp/2_libigl/CMakeLists.txt)  
 ``` sh
 cmake_minimum_required(VERSION 3.1)
 project(viewer)
