@@ -10,8 +10,11 @@ Or on mac, just do
 
 Trouble shooting:
     + Choose the correct version for your operating system.
+
     + If you are asked “Do you wish the installer to initialize Anaconda3 by running conda init?”, say yes.
+
     + Read the installation FAQ: [Anaconda FAQ]( https://docs.anaconda.com/anaconda/user-guide/faq/#installing-anaconda ) (you might need to manually add anaconda to the path with `source path-to-conda/bin/activate` and `conda init`)
+
     + If you're using Linux/OSX, check whether this solves your issue: [stackexchange Add to PATH]( https://askubuntu.com/questions/760311/anaconda-i-have-to-type-export-path-anaconda3-bin-path-everytime-i-rerun )
 
 
@@ -155,13 +158,13 @@ Alternatives if pip doesn't work:
 4. If you encountered pyglet exceptions, it may because the jupyter notebook is not running in the `geo_tutorials` environment.  Make sure the conda environment is running.
 
 If you continue to have problems, you may need to install these packages:
-     ```
+     ````
      conda deactivate
      mamba install nb_conda_kernels
      mamba install -n geo_tutorials ipykernels
      conda activate geo_tutorials`
      jupyter notebook
-     ```
+     ````
      open `helloworld_pyrender.ipynb`
 
      switch environment  
