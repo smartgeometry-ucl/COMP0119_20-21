@@ -179,4 +179,6 @@ If you continue to have problems, you may need to install these packages:
 ## Meshlab
 This isn't coding, but please install the Meshlab application from [here](https://www.meshlab.net/) and make sure you can use it to open a .obj file (e.g. from the 'resources' folder).
 
+There is a related python library called PyMeshlab, but this is different and not needed. Don't install PyMeshlab unless you want to.
+
 
