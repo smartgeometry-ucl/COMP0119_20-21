@@ -1,26 +1,22 @@
 # Python - Coding Framework
 
 ## Installation   
-1. Download and install [anaconda with python 3](https://docs.anaconda.com/miniconda/install/).
-(Choose the correct version for your operating system. Also follow the instructions to 'verify your install' to check that it has worked.)
+If you already use conda, you can skip steps 1 and 2.
+1. Download and install [anaconda/miniconda with python 3](https://docs.anaconda.com/miniconda/install/).
+2. Follow the instructions to 'verify your install' to check that it has worked.
 
-If you have issues, see if these pages can help you:
-    
-[Anaconda FAQ]( https://docs.anaconda.com/anaconda/user-guide/faq/#installing-anaconda )  
-[Anaconda Getting Started]( https://docs.anaconda.com/anaconda/user-guide/getting-started/ )
-    
-For Linux/OSX  you may need to do option 1 or option 2:
-- option 1 [Manually init]( https://docs.anaconda.com/anaconda/user-guide/faq/#installing-anaconda )  
-* first run source <path to conda>/bin/activate and then run conda init.  
-- option 2 [Add to PATH]( https://askubuntu.com/questions/760311/anaconda-i-have-to-type-export-path-anaconda3-bin-path-everytime-i-rerun )
-
+Trouble shooting:
+- Choose the correct version for your operating system.
+- If you are asked “Do you wish the installer to initialize Anaconda3 by running conda init?”, say yes.
+- Read the installation FAQ: [Anaconda FAQ]( https://docs.anaconda.com/anaconda/user-guide/faq/#installing-anaconda ) (you might need to manually add anaconda to the path with `source path/bin/activate' and `conda init')
+- If you're using Linux/OSX, check whether this StackExchange solves your issue: [Add to PATH]( https://askubuntu.com/questions/760311/anaconda-i-have-to-type-export-path-anaconda3-bin-path-everytime-i-rerun )
 
 
 3. cd to this repository `lab_demos/coding_framework/python`
-4. Create a new virtual environment geo_tutorials    
-`conda create -n  geo_tutorials  python=3.9  pip  notebook  jupyter  matplotlib  `  
+4. Create a new virtual environment geo_tutorials, using the command   
+`conda create -n  geo_tutorials  python=3.9  pip  notebook  jupyter  matplotlib `  
 
-5. Activate new environment
+5. Activate the new environment
 `conda activate geo_tutorials`  
 reference:
     ````
