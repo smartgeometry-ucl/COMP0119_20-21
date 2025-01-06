@@ -9,10 +9,10 @@ Or on mac, just do
 2. Follow the instructions on the above link to 'verify your install' to check that it has worked.
 
 Trouble shooting:
-    - Choose the correct version for your operating system.
-    - If you are asked “Do you wish the installer to initialize Anaconda3 by running conda init?”, say yes.
-    - Read the installation FAQ: [Anaconda FAQ]( https://docs.anaconda.com/anaconda/user-guide/faq/#installing-anaconda ) (you might need to manually add anaconda to the path with `source path-to-conda/bin/activate` and `conda init`)
-    - If you're using Linux/OSX, check whether this solves your issue: [stackexchange Add to PATH]( https://askubuntu.com/questions/760311/anaconda-i-have-to-type-export-path-anaconda3-bin-path-everytime-i-rerun )
+    + Choose the correct version for your operating system.
+    + If you are asked “Do you wish the installer to initialize Anaconda3 by running conda init?”, say yes.
+    + Read the installation FAQ: [Anaconda FAQ]( https://docs.anaconda.com/anaconda/user-guide/faq/#installing-anaconda ) (you might need to manually add anaconda to the path with `source path-to-conda/bin/activate` and `conda init`)
+    + If you're using Linux/OSX, check whether this solves your issue: [stackexchange Add to PATH]( https://askubuntu.com/questions/760311/anaconda-i-have-to-type-export-path-anaconda3-bin-path-everytime-i-rerun )
 
 
 3. cd to this repository `lab_demos/coding_framework/python`
@@ -56,8 +56,7 @@ reference:
     (base) >conda activate geo_tutorials 
     (geo_tutorials) > 
     ````
-    Important: the conda environment should stay activated when you run all of the following installation commands.
-    If you open a new terminal, don't forget to redo `conda activate geo_turtorials`.
+    You should keep the conda environment activated when you run the following installation commands.
     
 6. Install mamba on top of conda for faster packages installation (Optional)
 
@@ -80,26 +79,12 @@ reference:
    or
    `conda install -c conda-forge trimesh`
 2. open python in this environment and check that you can run `import trimesh` without errors
-    
-## Install Open3D 
 
-1. Install open3d via  
-    `conda install -c conda-forge open3d`
-2. Check that you can import open3d in python:
-    `import open3d`
-    
-If 1 or 2 causes errors, try installing via
-    `pip install open3d` or `pip install open3d-cpu`.
 
-3. Launch the hello world example    
-    `python hello_world_o3d.py`
-    It should open a window showing a torus that you can drag around using your mouse.
-    If you press `w`, it should show a wireframe view.
-    
-* documentation:  
-[open3d documentation](http://www.open3d.org/docs/release/introduction.html)  
+## Install numpy and scipy
+1. `conda install -n geo_tutorials numpy scipy`
 
-## Install Pyrender 0.1.45
+## Install Pyrender
 
 1. Install pyglet via `conda install -n geo_tutorials -c conda-forge pyglet`
 (This pre-installs pyrender's fork of pyglet, which enables OpenGL contexts - might only be necessary on mac)
@@ -124,7 +109,42 @@ Trouble shooting:
     
 * document: 
 [pyrender install document](https://pyrender.readthedocs.io/en/latest/install/index.html)  
+
+
+## Install Open3D 
+
+1. Install open3d via  
+    `conda install -c conda-forge open3d`
+2. Check that you can import open3d in python:
+    `import open3d`
     
+If 1 or 2 causes errors, try installing via
+    `pip install open3d` or `pip install open3d-cpu`.
+
+3. Launch the hello world example    
+    `python hello_world_o3d.py`
+    It should open a window showing a torus that you can drag around using your mouse.
+    If you press `w`, it should show a wireframe view.
+    
+* documentation:  
+[open3d documentation](http://www.open3d.org/docs/release/introduction.html)  
+
+
+## Install libigl
+
+1. `python -m pip install libigl`
+
+Alternatives if pip doesn't work:
+    1. `mamba install -c conda-forge igl`
+    2. `mamba install -c conda-forge meshplot` to visualize with libigl
+
+* documentation is [here](https://libigl.github.io/libigl-python-bindings/igl_docs/)
+
+**Note:** the docs can be hard to parse
+
+
+
+
     
 ## Lanuch jupyter notebook
 1. cd `tutorials/coding_framework/python`  
@@ -147,17 +167,5 @@ Trouble shooting:
      switch environment  
      ![](../imgs/jupyter.png)
 
-## Install libigl
-1. `mamba install -c conda-forge igl`
-2. `mamba install -c conda-forge meshplot` to visualize with libigl
 
-* documentation is [here](https://libigl.github.io/libigl-python-bindings/igl_docs/)
 
-**Note:** the docs can be hard to parse
-
-## Install pymeshlab
-1. `pip3 install pymeshlab`
-
-* documentation is [here](https://pymeshlab.readthedocs.io/en/latest/intro.html)
-
-**Note:** the docs may not be up to date, and the function interfaces changes frequently.
