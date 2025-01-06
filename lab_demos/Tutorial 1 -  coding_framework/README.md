@@ -19,7 +19,7 @@ Trouble shooting:
 - If you're using Linux/OSX, check whether this solves your issue: [stackexchange Add to PATH]( https://askubuntu.com/questions/760311/anaconda-i-have-to-type-export-path-anaconda3-bin-path-everytime-i-rerun )
 
 
-3. cd to this repository `lab_demos/coding_framework/python`
+3. cd to this repository `cd lab_demos/Tutorial\ 1\ coding_framework/python`
 4. Create a new virtual environment geo_tutorials, using the command   
 ````conda create -n  geo_tutorials  python=3.9  pip  notebook  jupyter  matplotlib````
 
@@ -154,9 +154,11 @@ Alternatives if pip doesn't work:
 1. Navigate to directory: `cd lab_demos/Tutorial\ 1\ coding_framework/python/1_install/`  
 2. `jupyter notebook`
     This should open a browser window where you can open files.
-3. open [helloworld_o3d.ipynb](helloworld_o3d.ipynb) or [helloworld_pyrender.ipynb](helloworld_pyrender.ipynb)
+    If you are asked for a password, put in the password for your computer.
+3. open [helloworld_o3d.ipynb](helloworld_o3d.ipynb) and run all cells
+4. open [helloworld_pyrender.ipynb](helloworld_pyrender.ipynb) and run all cells
 
-4. If you encountered pyglet exceptions, it may because the jupyter notebook is not running in the `geo_tutorials` environment.  Make sure the conda environment is running.
+5. If you encountered pyglet exceptions, it may because the jupyter notebook is not running in the `geo_tutorials` environment.  Make sure the conda environment is running.
 
 If you continue to have problems, you may need to install these packages:
      ````
