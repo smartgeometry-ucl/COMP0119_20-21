@@ -3,7 +3,7 @@ import sys,os
 RES_PATH = '../../../../resources'
 
 if not os.path.exists(RES_PATH):
-    print( 'cannot find /COMP0119_20-21/resources, please update RES_PATH')
+    print( 'cannot find /COMP0119_24-25/resources, please update RES_PATH')
     exit(1)
 else:
     print('found resources')
