@@ -36,17 +36,7 @@ C++ framework is provided as the 2nd option.
 </br></br></br></br></br></br></br></br></br></br></br>
 
 
----  
-## (II) C++ Framework
-
-### LibIGL and Eigen
-#### [Installation](cpp/1_install )
-#### [Simple Viewer and LibIGL](cpp/2_libigl )
-
-### Practices 
-#### [Visualize points/edges/mesh and access neighbors](cpp/3_travel)
-![]( cpp/imgs/bunny_libigl.jpg )
-</br></br>
+--- 
 
 
 

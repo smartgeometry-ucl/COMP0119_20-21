@@ -1,19 +1,22 @@
 # Python - Coding Framework
 
 ## Installation   
-1. Download and install [anaconda with python 3](https://www.anaconda.com/distribution/#download-section)
+1. Download and install [anaconda with python 3](https://docs.anaconda.com/miniconda/install/).
+(Choose the correct version for your operating system. Also follow the instructions to 'verify your install' to check that it has worked.)
 
-2. Open Anaconda environment  
-    Windows  
-    + [Anaconda Prompt]( https://docs.anaconda.com/anaconda/user-guide/faq/#installing-anaconda )  
-    + [Anaconda Prompt-getting-started]( https://docs.anaconda.com/anaconda/user-guide/getting-started/ )
+If you have issues, see if these pages can help you:
     
-    Linux/OSX  
+    + [Anaconda FAQ]( https://docs.anaconda.com/anaconda/user-guide/faq/#installing-anaconda )  
+    + [Anaconda Getting Started]( https://docs.anaconda.com/anaconda/user-guide/getting-started/ )
+    
+    For Linux/OSX  you may need to do option 1 or option 2:
     + option 1 [Manually init]( https://docs.anaconda.com/anaconda/user-guide/faq/#installing-anaconda )  
         * first run source <path to conda>/bin/activate and then run conda init.  
     + option 2 [Add to PATH]( https://askubuntu.com/questions/760311/anaconda-i-have-to-type-export-path-anaconda3-bin-path-everytime-i-rerun )
-    
-3. cd to this repository `tutorials/coding_framework/python`
+
+
+
+3. cd to this repository `lab_demos/coding_framework/python`
 4. Create a new virtual environment geo_tutorials    
 `conda create -n  geo_tutorials  python=3.9  pip  notebook  jupyter  matplotlib  `  
 
