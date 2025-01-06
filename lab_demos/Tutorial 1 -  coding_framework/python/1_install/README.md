@@ -146,15 +146,14 @@ Alternatives if pip doesn't work:
 
 
     
-## Lanuch jupyter notebook
-1. cd `tutorials/coding_framework/python`  
-    lanuch jupyter notebook by 
-    `jupyter notebook --port 12000 --NotebookApp.token=''`  
-    
-2. and open [helloworld_o3d.ipynb](helloworld_o3d.ipynb) or [helloworld_pyrender.ipynb](helloworld_pyrender.ipynb)
+## Launch jupyter notebook
+1. cd `lab_demos/coding_framework/python`  
+2. `jupyter notebook`
+    This should open a browser window where you can open files.
+3. open [helloworld_o3d.ipynb](helloworld_o3d.ipynb) or [helloworld_pyrender.ipynb](helloworld_pyrender.ipynb) (in 
 
-3. If you encountered pyglet exceptions, it may due to jupyter notebook is not running in `geo_tutorials` environment  
-     please install the following packages:
+4. If you encountered pyglet exceptions, it may due to jupyter notebook is not running in `geo_tutorials` environment.  
+     If this happens, please install the following packages:
      ```
      conda deactivate
      mamba install nb_conda_kernels
