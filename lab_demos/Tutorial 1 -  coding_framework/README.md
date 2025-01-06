@@ -10,13 +10,13 @@ Or on mac, just do
 
 Trouble shooting:
 
-    - Choose the correct version for your operating system.
+- Choose the correct version for your operating system.
 
-    - If you are asked “Do you wish the installer to initialize Anaconda3 by running conda init?”, say yes.
+- If you are asked “Do you wish the installer to initialize Anaconda3 by running conda init?”, say yes.
 
-    - Read the installation FAQ: [Anaconda FAQ]( https://docs.anaconda.com/anaconda/user-guide/faq/#installing-anaconda ) (you might need to manually add anaconda to the path with `source path-to-conda/bin/activate` and `conda init`)
+- Read the installation FAQ: [Anaconda FAQ]( https://docs.anaconda.com/anaconda/user-guide/faq/#installing-anaconda ) (you might need to manually add anaconda to the path with `source path-to-conda/bin/activate` and `conda init`)
 
-    - If you're using Linux/OSX, check whether this solves your issue: [stackexchange Add to PATH]( https://askubuntu.com/questions/760311/anaconda-i-have-to-type-export-path-anaconda3-bin-path-everytime-i-rerun )
+- If you're using Linux/OSX, check whether this solves your issue: [stackexchange Add to PATH]( https://askubuntu.com/questions/760311/anaconda-i-have-to-type-export-path-anaconda3-bin-path-everytime-i-rerun )
 
 
 3. cd to this repository `lab_demos/coding_framework/python`
