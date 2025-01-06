@@ -6,13 +6,13 @@
 
 If you have issues, see if these pages can help you:
     
-    + [Anaconda FAQ]( https://docs.anaconda.com/anaconda/user-guide/faq/#installing-anaconda )  
-    + [Anaconda Getting Started]( https://docs.anaconda.com/anaconda/user-guide/getting-started/ )
+[Anaconda FAQ]( https://docs.anaconda.com/anaconda/user-guide/faq/#installing-anaconda )  
+[Anaconda Getting Started]( https://docs.anaconda.com/anaconda/user-guide/getting-started/ )
     
-    For Linux/OSX  you may need to do option 1 or option 2:
-    + option 1 [Manually init]( https://docs.anaconda.com/anaconda/user-guide/faq/#installing-anaconda )  
-        * first run source <path to conda>/bin/activate and then run conda init.  
-    + option 2 [Add to PATH]( https://askubuntu.com/questions/760311/anaconda-i-have-to-type-export-path-anaconda3-bin-path-everytime-i-rerun )
+For Linux/OSX  you may need to do option 1 or option 2:
+- option 1 [Manually init]( https://docs.anaconda.com/anaconda/user-guide/faq/#installing-anaconda )  
+* first run source <path to conda>/bin/activate and then run conda init.  
+- option 2 [Add to PATH]( https://askubuntu.com/questions/760311/anaconda-i-have-to-type-export-path-anaconda3-bin-path-everytime-i-rerun )
 
 
 
