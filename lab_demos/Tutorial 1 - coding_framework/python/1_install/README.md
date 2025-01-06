@@ -8,13 +8,13 @@ If you already use conda, you can skip steps 1 and 2.
 Trouble shooting:
 - Choose the correct version for your operating system.
 - If you are asked “Do you wish the installer to initialize Anaconda3 by running conda init?”, say yes.
-- Read the installation FAQ: [Anaconda FAQ]( https://docs.anaconda.com/anaconda/user-guide/faq/#installing-anaconda ) (you might need to manually add anaconda to the path with `source path/bin/activate' and `conda init')
-- If you're using Linux/OSX, check whether this StackExchange solves your issue: [Add to PATH]( https://askubuntu.com/questions/760311/anaconda-i-have-to-type-export-path-anaconda3-bin-path-everytime-i-rerun )
+- Read the installation FAQ: [Anaconda FAQ]( https://docs.anaconda.com/anaconda/user-guide/faq/#installing-anaconda ) (you might need to manually add anaconda to the path with `source path-to-conda/bin/activate` and `conda init`)
+- If you're using Linux/OSX, check whether this solves your issue: [stackexchange Add to PATH]( https://askubuntu.com/questions/760311/anaconda-i-have-to-type-export-path-anaconda3-bin-path-everytime-i-rerun )
 
 
 3. cd to this repository `lab_demos/coding_framework/python`
 4. Create a new virtual environment geo_tutorials, using the command   
-`conda create -n  geo_tutorials  python=3.9  pip  notebook  jupyter  matplotlib `  
+`conda create -n  geo_tutorials  python=3.9  pip  notebook  jupyter  matplotlib`  
 
 5. Activate the new environment
 `conda activate geo_tutorials`  
