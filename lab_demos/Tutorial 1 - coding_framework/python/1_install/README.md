@@ -14,7 +14,7 @@ Trouble shooting:
 
 3. cd to this repository `lab_demos/coding_framework/python`
 4. Create a new virtual environment geo_tutorials, using the command   
-`conda create -n  geo_tutorials  python=3.9  pip  notebook  jupyter  matplotlib`  
+````conda create -n  geo_tutorials  python=3.9  pip  notebook  jupyter  matplotlib````
 
 5. Activate the new environment
 `conda activate geo_tutorials`  
