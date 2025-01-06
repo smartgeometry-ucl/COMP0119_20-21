@@ -1,6 +1,8 @@
-# Python - Coding Framework
+#Coding Framework
 
-## Installation   
+
+
+##Python Environment Setup  
 If you already use conda, you can skip steps 1 and 2.
 1. Download and install [anaconda/miniconda with python 3](https://docs.anaconda.com/miniconda/install/).
 Or on mac, just do
@@ -173,5 +175,8 @@ If you continue to have problems, you may need to install these packages:
      switch environment  
      ![](../imgs/jupyter.png)
 
+
+## Meshlab
+This isn't coding, but please install the Meshlab application from [here](https://www.meshlab.net/) and make sure you can use it to open a .obj file (e.g. from the 'resources' folder).
 
 
