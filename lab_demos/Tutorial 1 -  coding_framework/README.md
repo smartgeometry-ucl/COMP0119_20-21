@@ -176,9 +176,14 @@ If you continue to have problems, you may need to install these packages:
      ![](../imgs/jupyter.png)
 
 
+
+
 ## Meshlab
 This isn't coding, but please install the Meshlab application from [here](https://www.meshlab.net/) and make sure you can use it to open a .obj file (e.g. from the 'resources' folder).
 
 There is a related python library called PyMeshlab, but this is different and not needed. Don't install PyMeshlab unless you want to.
 
-
+## Halfedge Mesh Library
+The file python_lib/halfedge_mesh.py is a very basic library for converting, processing and exporting halfedge meshes.
+You will cover halfedge meshes later in the course. For now, please just run the notebook halfedge_test.ipynb to check that you can import the library and use its functions.
+The notebook should read an obj file, convert it to halfedge representation, then export it back into obj and off format. It should create two meshes ('test.off' and 'test.obj'). Check that you can open these in meshlab. (open meshlab, then 'File -> import  mesh ...').

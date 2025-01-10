@@ -142,7 +142,9 @@ Alternatives if pip doesn't work:
 
 **Note:** the docs can be hard to parse
 
+## Check halfedge mesh library
 
+1. In a notebook, `from ..... import halfedge`
 
 
     
