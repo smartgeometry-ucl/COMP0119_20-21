@@ -185,5 +185,9 @@ There is a related python library called PyMeshlab, but this is different and no
 
 ## Halfedge Mesh Library
 The file python_lib/halfedge_mesh.py is a very basic library for converting, processing and exporting halfedge meshes.
-You will cover halfedge meshes later in the course. For now, please just run the notebook halfedge_test.ipynb to check that you can import the library and use its functions.
+You will cover halfedge meshes later in the course.
+
+For now, please just run the notebook halfedge_test.ipynb to check that you can import the library and use its functions.
 The notebook should read an obj file, convert it to halfedge representation, then export it back into obj and off format. It should create two meshes ('test.off' and 'test.obj'). Check that you can open these in meshlab. (open meshlab, then 'File -> import  mesh ...').
+
+Tell us if anything doesn't work. :)
