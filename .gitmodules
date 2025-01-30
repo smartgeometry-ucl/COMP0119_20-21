@@ -1,3 +1,6 @@
 [submodule "cpp_lib/libigl_c645aac0"]
 	path = cpp_lib/libigl_c645aac0
 	url = git@github.com:smartgeometry-ucl/libigl.git
+[submodule "lab_demos/Tutorial 4 - DeepSDF"]
+	path = lab_demos/Tutorial 4 - DeepSDF
+	url = git@github.com:niladridutt/DeepSDF.git
